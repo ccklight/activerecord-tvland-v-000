@@ -9,5 +9,5 @@ class CreateActors < ActiveRecord::Migration[4.2]
   end
 
   def full_name
-    '#{first_}
+    '#{first_name}, #{last_name}
   end
