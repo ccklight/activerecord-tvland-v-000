@@ -5,7 +5,7 @@ class Character < ActiveRecord::Base
 
   def catchphrase
     #c = "Did I do that?"
-  '"#{self.name} always says: #{self.catchphrase}"
+  "#{self.name} always says: #{self.catchphrase}"
   end
 
 end
