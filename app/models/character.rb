@@ -4,8 +4,8 @@ class Character < ActiveRecord::Base
   belongs_to :show
 
   def catchphrase
-    c = "Did I do that?" 
-    
+    c = "Did I do that?"
+
   '#{self.name} always says: #{self.catchphrase}"
 
 
@@ -14,8 +14,8 @@ class Character < ActiveRecord::Base
       end
     end
 
-    
 
-  end 
+
+  end
 
 end
