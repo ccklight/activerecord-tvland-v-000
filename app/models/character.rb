@@ -5,6 +5,7 @@ class Character < ActiveRecord::Base
 
 
   def catchphrase
+    name = @name 
     catchphrase = "Did I do that?" 
   "#{self.name} says: #{self.catchphrase}"
   end
