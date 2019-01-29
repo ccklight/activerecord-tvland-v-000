@@ -15,3 +15,12 @@ def full_name
     end
   end
 end
+
+
+
+  def list_roles
+    characters.collect do |character|
+      "#{character.name} - #{character.show.name}"
+    end
+  end
+end
