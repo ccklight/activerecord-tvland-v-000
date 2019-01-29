@@ -9,7 +9,7 @@ def full_name
   end
 
 
-  def list_roles
+  def list_of_shows_and_characters
     characters.collect do |character|
       "#{character.name} - #{character.show.name}"
     end
