@@ -18,7 +18,6 @@ def full_name
 end
 
 
-
     characters.collect do |character|
       "#{character.name} - #{character.show.name}"
     end
