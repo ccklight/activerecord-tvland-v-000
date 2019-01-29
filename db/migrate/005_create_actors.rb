@@ -7,4 +7,7 @@ class CreateActors < ActiveRecord::Migration[4.2]
     
       end
   end
-end
+
+  def full_name 
+    '#{first_}
+  end
